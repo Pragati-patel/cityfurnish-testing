@@ -1,7 +1,0 @@
-# version https://git-lfs.github.com/spec/v1
-# oid sha256:82fe7eaf53aef35d703acea822efc353697f209550f74f573aa71aae971f904a
-# size 86
-# *.pack.gz filter=lfs diff=lfs merge=lfs -text
-.next/* binary
-/build/* binary
-.husky/pre-push
