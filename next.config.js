@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
+  experimental: {
+    nextScriptWorkers: true,
+  },
   images: {
     domains: ["d3juy0zp6vqec8.cloudfront.net"],
   },
