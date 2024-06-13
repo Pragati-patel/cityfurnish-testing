@@ -96,6 +96,7 @@ export default function RootLayout({children}) {
 
         <Script
           type="text/javascript"
+          id="fcWidget-chatboat"
           dangerouslySetInnerHTML={{
             __html: `
             const userId = localStorage.getItem("_ga");
@@ -127,6 +128,7 @@ export default function RootLayout({children}) {
 
         {process.env.NEXT_PUBLIC_PROD_ENV === "PRODUCTION" && (
           <Script
+            id="facebook"
             defer
             async
             dangerouslySetInnerHTML={{
@@ -182,6 +184,7 @@ export default function RootLayout({children}) {
 
         {process.env.NEXT_PUBLIC_PROD_ENV === "PRODUCTION" && (
           <Script
+            id="gtag"
             defer
             async
             dangerouslySetInnerHTML={{
@@ -199,6 +202,7 @@ export default function RootLayout({children}) {
 
         {process.env.NEXT_PUBLIC_PROD_ENV === "PRODUCTION" && (
           <Script
+            id="linkedin"
             defer
             async
             dangerouslySetInnerHTML={{
@@ -213,6 +217,7 @@ export default function RootLayout({children}) {
 
         {process.env.NEXT_PUBLIC_PROD_ENV === "PRODUCTION" && (
           <Script
+            id="lms-analytics"
             defer
             async
             dangerouslySetInnerHTML={{
@@ -250,6 +255,7 @@ export default function RootLayout({children}) {
 
         {process.env.NEXT_PUBLIC_PROD_ENV === "PRODUCTION" && (
           <Script
+            id="googletagmanager"
             defer
             async
             dangerouslySetInnerHTML={{
@@ -291,6 +297,7 @@ export default function RootLayout({children}) {
 
         {process.env.NEXT_PUBLIC_PROD_ENV === "PRODUCTION" && (
           <Script
+            id="ads-twitter"
             defer
             async
             dangerouslySetInnerHTML={{
