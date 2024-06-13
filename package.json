@@ -12,6 +12,7 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@builder.io/partytown": "^0.10.2",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@loadable/component": "^5.15.3",
